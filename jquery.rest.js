@@ -9,7 +9,7 @@
         data=null;
       }
       return jQuery.ajax({
-        type: 'PUT'
+        type: 'PUT',
         url: url,
         data: data,
         success: callback,
@@ -24,7 +24,7 @@
         data=null;
       }
       return jQuery.ajax({
-        type: 'DELETE'
+        type: 'DELETE',
         url: url,
         data: data,
         success: callback,
